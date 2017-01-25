@@ -27,7 +27,6 @@ MeterialMenuJS is create in order to let developer want to use meterail menu but
 ### Form
 
 ```html
-<code>
 <menu id="menu1">
     <icon>
         <button type="button"><span class="material-icons">menu</span></button>
@@ -38,7 +37,6 @@ MeterialMenuJS is create in order to let developer want to use meterail menu but
         </ol>
     </items>
 </menu>
-</code>
 ```
 
 
