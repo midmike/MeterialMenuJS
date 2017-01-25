@@ -38,5 +38,7 @@ MeterialMenuJS is create in order to let developer want to use meterail menu but
     </items>
 </menu>
 ```
+### Demo
 
-
+<script async src="//jsfiddle.net/midmike/0ds3c55L/embed/"></script>
+Link [Deme] (https://jsfiddle.net/midmike/rp5cq1su/)
