@@ -1,5 +1,5 @@
 # MeterialMenuJS
-MeterialMenuJS is create in order to let developer want to use meterail menu but want to custom their own menu style list. 
+MeterialMenuJS is create in order to let developer want to use material menu but want to custom their own menu style list. 
 - When click on icon, view in tag items will be appear. 
 - When mouse leave the menu, view in tag items will be hiddens.
 
