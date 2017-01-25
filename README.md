@@ -1,7 +1,5 @@
 # MeterialMenuJS
 
-### Description
-
 MeterialMenuJS is create in order to let developer want to use meterail menu but want to custom their own menu style list. 
 
 - When click on icon, view in tag items will be appear. 
