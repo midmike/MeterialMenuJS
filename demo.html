@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo 111</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/plugins/CSSPlugin.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/easing/EasePack.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenLite.min.js"></script>
+        <script src="materialMenu.js"></script>
+        <link href="materialMenu.css" rel="stylesheet">
+        <style>
+            .menu2 icon{
+                width: 54px;
+                height: 54px;
+            }
+            .menu2 icon material-icons {
+                font-size: 54px;
+            }
+
+            .menu2 {
+                position: absolute;
+                top: 50px;
+            }
+
+            .menu2 .bubble {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <menu id="menu1">
+            <icon>
+                <button type="button"><span  class="material-icons">menu</span></button>
+            </icon>
+            <items>
+                <ol>
+                    <li><a href="#1">Item 1</a></li>
+                    <li><a href="#2">Item 2</a></li>
+                </ol>
+            </items>
+        </menu>
+
+        <menu id="menu2" class="menu2">
+            <icon>
+                <button type="button"><span  class="material-icons" style=" font-size: 54px;">all_out</span></button>
+            </icon>
+            <items>
+                <ol>
+                    <li><a href="#1">Item 1</a></li>
+                    <li><a href="#2">Item 2</a></li>
+                </ol>
+            </items>
+        </menu>
+        <script>
+            jQuery("#menu1").popupMenu();
+            jQuery("#menu2").popupMenu();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+.bubble {
+    z-index: 0;
+    background-color: #263238;
+    transform: scaleX(0) scaleY(0);
+    float: left;
+    border-radius: 50%;
+    position: absolute;
+}
+.display {
+    display: block;
+}
+menu icon button {
+    background:none;
+    border:none;
+    outline: 0;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+menu icon button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+menu icon {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    float:left;
+    z-index: 1;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+menu items {
+    display: none;
+}
