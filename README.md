@@ -9,7 +9,7 @@ MeterialMenuJS is create in order to let developer want to use meterail menu but
   if you are using material-icons font, please also override style **font-size** of class **icon**.
 
 ### Require 
-
+- HTML 5
 - v1.13.1 CSSPlugin.min.js
 - v1.13.1 EasePack.min.js
 - v1.13.1 TweenLite.min.js
