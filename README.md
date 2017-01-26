@@ -33,6 +33,9 @@ MeterialMenuJS is create in order to let developer want to use material menu but
         </ol>
     </items>
 </menu>
+<script>
+  jQuery("#menu1").popupMenu();
+</script>
 ```
 ### Demo
 
